@@ -10,15 +10,16 @@ A bundle of 22 Agent Skills that turn any agentic IDE or LLM coding assistant in
 
 ## Table of Contents
 1. [What's in the Suite](#whats-in-the-suite)
-2. [File Anatomy](#file-anatomy)
-3. [Setup — Any Agentic IDE](#setup--any-agentic-ide)
-4. [How the Skills Get Loaded](#how-the-skills-get-loaded)
-5. [Usage](#usage)
-6. [Response Format](#response-format)
-7. [Example Prompts](#example-prompts)
-8. [Customization](#customization)
-9. [Troubleshooting](#troubleshooting)
-10. [Disclaimer](#disclaimer)
+2. [Key Features](#key-features)
+3. [File Anatomy](#file-anatomy)
+4. [Setup — Any Agentic IDE](#setup--any-agentic-ide)
+5. [How the Skills Get Loaded](#how-the-skills-get-loaded)
+6. [Usage](#usage)
+7. [Response Format](#response-format)
+8. [Example Prompts](#example-prompts)
+9. [Customization](#customization)
+10. [Troubleshooting](#troubleshooting)
+11. [Disclaimer](#disclaimer)
 
 ---
 
@@ -53,6 +54,26 @@ A bundle of 22 Agent Skills that turn any agentic IDE or LLM coding assistant in
 | `kerala-minister-ports-museums` | Vizhinjam, minor ports, Maritime Board, Museums, Archives |
 | `kerala-minister-cooperation-registration` | PACS, urban banks, Co-op Audit, Registration/IGR |
 | `kerala-minister-sports-youth-minority` | Sports Council, Youth Welfare, Wakf, Minority Welfare |
+
+---
+
+## Key Features
+
+- **One skill per Minister:** 21 portfolio-specific advisors plus one master router for the full Kerala Cabinet.
+- **Fast Cabinet-grade decisions:** Generates concise decision briefs with recommendation, options, risks, execution steps, and missing data.
+- **Constitution-first advice:** Checks Indian Constitution limits before recommending action, including Union List, State List, Concurrent List, Fundamental Rights, DPSP, Article 254 repugnancy, and Centre-State coordination needs.
+- **Kerala policy-aware:** Looks up the Government of Kerala Document Portal for relevant department policies, handles pagination/load-more, follows the latest approved policy/order, and quotes the policy basis in the response.
+- **Budget and funding check:** Considers available budget, estimated cost, funding source, Finance concurrence, re-appropriation, supplementary demand, KIIFB, CSS, LSGI funds, SDRF/NDRF, CSR, PPP/VGF, and other realistic routes.
+- **Public value per rupee:** Compares options by effectiveness and cost, not only by administrative convenience.
+- **Current political context:** Considers Assembly dynamics, opposition concerns, protests, court cases, media scrutiny, union positions, and local-body sensitivities without partisan bias.
+- **Global best-practice research:** Searches for comparable decisions from other countries and Indian states, then adapts what worked to Kerala's legal, fiscal, social, and administrative context.
+- **Crisis mode:** Automatically prioritizes first-24-hour and first-72-hour actions for outbreaks, floods, landslides, strikes, fires, court orders, fund freezes, and similar urgent files.
+- **Stakeholder mapping:** Identifies who must be consulted: Chief Secretary, Finance, Law, AG, LSGIs, subject committees, trade unions, central ministries, regulators, and affected communities.
+- **LSGI and decentralisation focus:** Checks whether local bodies, Kudumbashree, district administrations, or gram/ward sabhas must be involved.
+- **Equity and welfare lens:** Explicitly checks impact on SC/ST communities, fishers, farmers, women, children, elderly, PwD, migrant workers, coastal/hill/tribal communities, taxpayers, and future generations.
+- **Implementation realism:** Tests whether departments, PSUs, districts, LSGIs, and frontline workers can actually execute the decision within the proposed time and budget.
+- **Language choice:** Asks whether the user wants English, Malayalam, or bilingual output. Malayalam can be simple for public communication or formal for Cabinet/Secretary-level notes.
+- **Portable Markdown skills:** No code or runtime dependency. Can be used in Cursor, Claude Code, Continue, Cline, Aider, Copilot instructions, or plain chat.
 
 ---
 
